@@ -8,12 +8,14 @@ function generateCustomers () {
     var lastName = faker.name.firstName()
     var phoneNumber = faker.phone.phoneNumberFormat()
     var jobTitle = faker.name.jobTitle();
+    var email = faker.internet.email();
     customers.push({
       "id": id,
       "first_name": firstName,
       "last_name": lastName,
       "phone": phoneNumber,
-      "job": jobTitle
+      "job": jobTitle,
+      "email":email
     })
   }
 
