@@ -21,7 +21,7 @@ function generateCustomers () {
 
   return { "customers": customers }
 } 
-
+ 
 // json-server requires that you export
 // a function which generates the data set
 module.exports = generateCustomers
