@@ -1,6 +1,6 @@
 var faker = require('faker')
 
-function generateCustomers () {
+function generateCustomers () { 
   var customers = []
 
   for (var id = 0; id < 60; id++) {
