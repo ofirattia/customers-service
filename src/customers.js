@@ -15,7 +15,8 @@ function generateCustomers () {
       "last_name": lastName,
       "phone": phoneNumber,
       "job": jobTitle,
-      "email":email
+      "email":email,
+      "card":faker.helpers.createCard()
     })
   }
 
