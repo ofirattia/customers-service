@@ -1,5 +1,5 @@
 var faker = require('faker')
-
+/** nice comment **/
 function generateCustomers () { 
   var customers = []
 
