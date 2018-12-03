@@ -4,3 +4,4 @@
 4. oc start-build customers-service --from-dir=. --follow
 5. oc new-app customers-service -l app=customers-service
 6. oc expose service customers-service
+ 
