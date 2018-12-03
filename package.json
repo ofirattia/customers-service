@@ -1,6 +1,6 @@
 {
   "name": "json-server-ms",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "description": "A json-server service, microservice example with nodejs",
   "author": "Ofir Attia",
   "license": "MIT",
